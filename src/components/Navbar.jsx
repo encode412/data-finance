@@ -48,7 +48,7 @@ const Navbar = () => {
             <li className='p-4 border-b border-gray-600 cursor-pointer hover:text-[#00df9a]'>Home</li>
             <li className='p-4 border-b border-gray-600 cursor-pointer hover:text-[#00df9a]'>Company</li>
             <li className='p-4 border-b border-gray-600 cursor-pointer hover:text-[#00df9a]'>Resources</li>
-            <li className='p-4 border-b border-gray-600 cursor-pointer hover:text-[#00df9a]' id='about'>About</li>
+            <li className='p-4 border-b border-gray-600 cursor-pointer hover:text-[#00df9a]' id='about'><Link to='/about'>About</Link></li>
             <li className='p-4 border-b border-gray-600 cursor-pointer hover:text-[#00df9a]'>Contact</li>
         </ul> 
     </div>
